@@ -8,7 +8,10 @@ Date: August 8th, 2015
    	Schedule class, and finally, the main.cpp file runs the program.
 3. 	The data structure, as stated previously, is an AVL tree. An AVL tree is a tree where each node
    	points to a right and a left node. In this case, the left node contains an earlier event time and 	
-   	the right node contains a later event time. Additionally, the heights of the right and left                     	subtrees can only differ by one at the most. If the heights differ by more than one, 	the tree has to be rotated. There are four rotations: left rotation, right rotation, left-right 	rotation and right-left rotation. \
+   	the right node contains a later event time. Additionally, the heights of the right and left
+   	subtrees can only differ by one at the most. If the heights differ by more than one, the tree has 
+   	to be rotated. There are four rotations: left rotation, right rotation, left-right rotation and 
+   	right-left rotation. 
 4. 	In inserting or removing an event, all nodes in the tree have to be checked for an imbalance 
 	(a node whose right and left subtree heights differ by more than one). And if an imbalance is 
 	found, the tree will be rotated using one of the four rotations listed above depending on the 
