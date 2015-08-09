@@ -12,10 +12,11 @@ Date: August 8th, 2015
    	subtrees can only differ by one at the most. If the heights differ by more than one, the tree has 
    	to be rotated. There are four rotations: left rotation, right rotation, left-right rotation and 
    	right-left rotation. 
-4. 	In inserting or removing an event, all nodes in the tree have to be checked for an imbalance 
-	(a node whose right and left subtree heights differ by more than one). And if an imbalance is 
-	found, the tree will be rotated using one of the four rotations listed above depending on the 
-	situation. In all other situations, the tree does not have to be checked for an imbalance nor rotated.
+4. 	In inserting or removing an event, all nodes in the tree have to be checked (after inserting or removing)
+	for an imbalance (a node whose right and left subtree heights differ by more than one). 
+	And if an imbalance is found, the tree will be rotated using one of the four rotations listed above 
+	depending on the situation. In all other situations, the tree does not have to be checked for an imbalance 
+	nor rotated.
 5.	This program can be compiled using a Makefile.
 6. 	All the information on the concepts of tree rotations I found through reading 
 	"The AVL Tree Rotations Tutorial" by John Hargrove.
